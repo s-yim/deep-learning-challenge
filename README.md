@@ -3,6 +3,23 @@ Neural Networks and Deep Learning Challenge Module 21
 
 by Sungmin Yim
 
+## Background ##
+The nonprofit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures. With your knowledge of machine learning and neural networks, you’ll use the features in the provided dataset to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
+
+From Alphabet Soup’s business team, you have received a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization, such as:
+
+* __EIN__ and __NAME__—Identification columns
+* __APPLICATION_TYPE__—Alphabet Soup application type
+* __AFFILIATION__—Affiliated sector of industry
+* __CLASSIFICATION__—Government organization classification
+* __USE_CASE__—Use case for funding
+* __ORGANIZATION__—Organization type
+* __STATUS__—Active status
+* __INCOME_AMT__—Income classification
+* __SPECIAL_CONSIDERATIONS__—Special considerations for application
+* __ASK_AMT__—Funding amount requested
+* __IS_SUCCESSFUL__—Was the money used effectively
+
 ### Step 1: Preprocess the Data ###
 Using your knowledge of Pandas and scikit-learn’s `StandardScaler()`, you’ll need to preprocess the dataset. This step prepares you for Step 2, where you'll compile, train, and evaluate the neural network model. Begin by uploading the files to Google Colab, then complete the preprocessing steps below:
 
